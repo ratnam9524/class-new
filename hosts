@@ -1,0 +1,10 @@
+[localhost]
+localhost
+10.0.1.162
+[slavenode]
+10.0.2.151
+[webservers]
+10.0.2.151
+[database]
+10.0.2.151
+#ip-10-0-2-151.us-west-2.compute.internal
