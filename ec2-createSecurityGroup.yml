@@ -13,8 +13,8 @@
         name: rangasg # New Security group name
         description: an example ec2 security group
         region: us-west-2 # region you want to create the secutity gp
-        aws_access_key: "AKIA2KOXUAHD2NOBCJ56"
-        aws_secret_key: "JcGs2XYup7yErV27Sv2p3GJgTOA0orl1nv2dHlZg"
+        aws_access_key: "XXXXXXXXXXX"
+        aws_secret_key: "XCCCCCCCCCCC"
         rules:
           - proto: tcp
             from_port: 80
