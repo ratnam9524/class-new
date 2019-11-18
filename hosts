@@ -1,8 +1,5 @@
 [localhostgroup]
 localhost
 #10.0.1.48
-[webserver]
-10.0.2.151
-#[dbgroup]
-#54.214.223.23
-#10.0.1.162
+[slave2]
+172.31.6.90
