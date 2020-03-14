@@ -1,5 +1,4 @@
 ---
-#https://docs.ansible.com/ansible/latest/user_guide/playbooks_tags.html
 - hosts: all
   gather_facts: no
 
