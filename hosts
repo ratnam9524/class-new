@@ -1,5 +1,6 @@
-[localhostgroup]
-localhost
+#[localhostgroup]
+#localhost
 #10.0.1.48
-[slave2]
-172.31.6.90
+[slavegroup]
+172.31.5.160
+172.31.58.249
