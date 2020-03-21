@@ -5,5 +5,5 @@
   tasks: 
     - name: copy jar/war onto tomcat servers
       copy:
-          src: /home/jenkins/slave-repo/workspace/s3-deploy-tomcat/gameoflife.war
+          src: /var/lib/jenkins/workspace/s3-deploy-tomcat/gameoflife.war
           dest: /usr/local/tomcat/webapps
