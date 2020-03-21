@@ -1,7 +1,9 @@
+# copywarfile.yml
 ---
-- hosts: all
-  become: yes
-  become_method: sudo 
-  tasks:
-     - name: copy artifacts from server to all appservers
-     file: src=/home/jenkins/slave-repo/workspace/s3-deploy-tomcat/gameoflife.war dest=/usr/local/tomcat/webapps/
+- hosts: all 
+  become: true
+  tasks: 
+    - name: copy jar/war onto tomcat servers
+      copy:
+          src: /home/jenkins/slave-repo/workspace/s3-deploy-tomcat/gameoflife.war
+          dest: /usr/local/tomcat/webapps
