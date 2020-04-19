@@ -1,0 +1,6 @@
+---
+#- name: Just remove existing httpd package
+# yum: name=httpd state=removed
+
+- name: Install httpd Package
+  yum: name=httpd state=latest

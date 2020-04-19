@@ -1,11 +1,14 @@
 - hosts: all
-  user: ansadm
-  become: yes
-  become_method: sudo
+  #user: ansadm
+  #become: yes
+  #become_method: sudo
   tasks:
-       - name: intall httpd
-         yum: name=httpd state=present
+       - name: removing  httpd
+         yum: name=httpd state=removed
+       - name: install httpd
+         yum: name=httpd state=installed
        - name: start httpd
          service: name=httpd state=started
        - name: checking service 
          command: "service httpd status"
+
