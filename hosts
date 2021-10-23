@@ -1,8 +1,9 @@
-#[localhostgroup]
-#localhost
-#10.0.1.48
-[slavegroup]
-#172.31.5.160
-172.31.39.66
-172.31.5.46
+[localhostgroup]
 172.31.21.172
+localhost
+#10.0.1.48
+[webserver]
+172.31.5.46
+[appserver]
+172.31.39.66
+
